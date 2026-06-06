@@ -79,7 +79,7 @@ def main() -> int:
     )
     parser.add_argument(
         "url",
-        help="YouTube video URL",
+        help="YouTube video URL (should use quotes to avoid shell issues)",
     )
     parser.add_argument(
         "--lang",
